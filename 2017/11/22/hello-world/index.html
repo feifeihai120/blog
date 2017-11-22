@@ -23,6 +23,8 @@
 
 
 
+    <link rel="dns-prefetch" href="https://changyan.sohu.com"/>
+
 
 
 
@@ -458,6 +460,18 @@
 
     <!-- Qrcode -->
     
+        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">devices other</i>
+    <span class="visuallyhidden">devices other</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
+    <li class="mdl-menu__item">在其它设备中阅读本文章</li>
+    
+        <img src="https://pan.baidu.com/share/qrcode?w=246&h=246&url=http://feifeihai.online/2017/11/22/hello-world/">
+    
+</ul>
+
+    
 
     <!-- Tags (bookmark) -->
     
@@ -514,6 +528,12 @@
 
     <!-- Share QQ -->
     
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=FeiFeiHai´Blog&title=Hello Hexo&summary=&pics=http://feifeihai.online/img/favicon.png&url=http://feifeihai.online/2017/11/22/hello-world/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 QQ
+            </li>
+        </a>
+    
 
     <!-- Share Telegram -->
     
@@ -559,6 +579,26 @@
                 <!-- Post Comments -->
                 
                     
+    <!-- 使用 changyan -->
+<div id="changyan-comment">
+    <!--PC和WAP自适应版-->
+<div id="SOHUCS" sid="2017/11/22/hello-world/"  ></div>
+<script type="text/javascript">
+(function(){
+var appid = 'cytkpDjpN';
+var conf = 'prod_406a614b65992234f8c1a26edeac29b5';
+var width = window.innerWidth || document.documentElement.clientWidth;
+if (width < 960) {
+window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); } })(); </script>
+
+</div>
+<style>
+    #changyan-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
                 
             </div>
 
@@ -660,6 +700,8 @@
             </ul>
         </li>
         
+            <li class="divider"></li>
+        
     
 
     <!-- Categories  -->
@@ -667,8 +709,36 @@
 
     <!-- Pages  -->
     
+        <li>
+            <a href="/about" title="关于我">
+                
+                    <i class="material-icons sidebar-material-icons">person</i>
+                
+                关于我
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/timeline" title="时间线">
+                
+                    <i class="material-icons sidebar-material-icons">timeline</i>
+                
+                时间线
+            </a>
+        </li>
+        
+    
 
     <!-- Article Number  -->
+    
+        <li>
+            <a href="/archives">
+                文章总数
+                <span class="sidebar-badge">1</span>
+            </a>
+        </li>
+        
     
 </ul>
 
@@ -861,6 +931,11 @@ It will not impact the appearance and can give developers a lot of support :)
 
 
 
+
+   <!-- 畅言公共 js 代码 start -->
+<script id="cy_cmt_num" src="https://changyan.sohu.com/upload/plugins/plugins.list.count.js?clientId=cytkpDjpN">
+</script>
+<!-- 畅言公共 js 代码 end -->
 
 
 
